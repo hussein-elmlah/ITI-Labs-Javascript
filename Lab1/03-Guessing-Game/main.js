@@ -4,7 +4,7 @@ var guessedNum;
 while (guessedNum != secretNum) {
   guessedNum = Number(prompt("Guess a number"));
     if (guessedNum == "") {
-      alert(`Empty iput. Try again.`);
+      alert(`Empty input. Try again.`);
     } else if (guessedNum > secretNum) {
       alert(`Too high. Try again.`);
     } else if (guessedNum < secretNum) {
