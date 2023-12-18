@@ -1,0 +1,19 @@
+*, :before {
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+
+img {
+    width: 100%;
+}
+
+.btnCard {
+    background-color: #4497ef;
+    border: none;
+    color: #fff;
+}
+
+.btnCard:hover {
+    background-color: #0069D9;
+}
